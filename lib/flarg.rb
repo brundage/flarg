@@ -1,5 +1,4 @@
 require 'active_support'
-require 'singleton'
 require 'flarg/version'
 
 module Flarg

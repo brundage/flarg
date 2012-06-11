@@ -1,4 +1,6 @@
 require 'rails/railtie'
+require 'singleton'
+
 module Flarg
   class Railtie < Rails::Railtie
 
