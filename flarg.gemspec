@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "flarg"
 
   s.add_dependency 'activesupport'
+  s.add_dependency 'railties'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'guard-rspec'
@@ -19,7 +20,10 @@ Gem::Specification.new do |s|
   s.authors       = ["Dean Brundage"]
   s.email         = ["dean@newrepublicbrewing.com"]
 
-  s.files         = [ 'README.md', 'lib/flarg.rb', 'lib/flarg/version.rb' ]
+  s.files         = [ 'README.md',
+                      'lib/flarg.rb',
+                      'lib/flarg/railtie.rb',
+                      'lib/flarg/version.rb' ]
   s.test_files    = [ 'spec/flarg_spec.rb' ]
   s.require_paths = ["lib"]
 

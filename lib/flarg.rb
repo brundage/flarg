@@ -47,15 +47,4 @@ private
 
 end
 
-if defined?(Rails)
-  n = "#{Rails.application.class.to_s.split("::").first}Config"
-STDERR.puts n
-  eval %Q( class #{n}
-             include Singleton
-             include Flarg
-             class << self
-               alias_method :config, :instance
-             end
-           end
-         )
-end
+require 'flarg/railtie' if defined?(Rails)
