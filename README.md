@@ -4,6 +4,8 @@ Adds a class to your ralis app that stores configuration variables.
 
 [![Build Status](https://secure.travis-ci.org/brundage/flarg.png)](http://travis-ci.org/brundage/flarg)
 [![Dependency Status](https://gemnasium.com/brundage/flarg.png)](https://gemnasium.com/brundage/flarg)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/brundage/flarg)
+[![Buggerall](https://buggerall.herokuapp.com/bug/flarg.png)](https://github.com/brundage/buggerall)
 
 ## WTF?
 
